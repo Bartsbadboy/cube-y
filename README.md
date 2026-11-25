@@ -27,3 +27,4 @@ Python 3.12, sans aucune dépendance.
 | `geometry.py` | la boîte, la pièce et ses 24 orientations, obtenues en la faisant tourner |
 | `candidates.py` | pour chaque case, toutes les façons qu'a une pièce de la couvrir sans sortir de la boîte, calculées une fois |
 | `board.py` | l'état du cube pendant la recherche : un numéro de pièce par case, la pile des pièces posées ; poser et retirer, rien d'autre ne le change |
+| `display.py` | les couches de bas en haut, un numéro de pièce par case ; le même texte sert de fichier de solution, et se relit pour être jugé à nouveau |
