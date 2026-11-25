@@ -25,3 +25,4 @@ Python 3.12, sans aucune dépendance.
 |---|---|
 | `checker.py` | le juge : dit si une boîte remplie est une solution, sans partager de code avec la recherche |
 | `geometry.py` | la boîte, la pièce et ses 24 orientations, obtenues en la faisant tourner |
+| `candidates.py` | pour chaque case, toutes les façons qu'a une pièce de la couvrir sans sortir de la boîte, calculées une fois |
